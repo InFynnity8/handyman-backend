@@ -35,16 +35,6 @@ const artisanSchema = Schema(
     service: {
       type: String,
       required: true,
-      enum: [
-        "Carpenter",
-        "Cleaner",
-        "Electrician",
-        "Plumber",
-        "Painter",
-        "Mason",
-        "Mechanic",
-        "Other",
-      ],
     },
     rate: {
       amount: {
